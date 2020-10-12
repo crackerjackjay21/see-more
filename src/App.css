@@ -1,3 +1,29 @@
+.btn-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-wrapper {
+  margin: 10px;
+  border: 1px solid lightgray;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.btn-text {
+  text-align: center;
+  padding: 5px 20px;
+  display: flex;
+}
+
+.link {
+  border: 0;
+  cursor: pointer;
+  padding: 5px;
+  color: blue;
+}
+
 .App {
   text-align: center;
 }
